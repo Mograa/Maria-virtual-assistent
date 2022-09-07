@@ -15,7 +15,6 @@ data_hours = commands['date and hour']['hours']
 data_temperature = commands['weather']['temperature']
 data_joke = commands['others']['joke']
 
-data_lofi = commands['music']['lofi']
 data_music1 = commands['music']['music1']
 data_music2 = commands['music']['music2']
 data_music3 = commands['music']['music3']
