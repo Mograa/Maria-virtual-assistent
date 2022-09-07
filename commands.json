@@ -1,0 +1,23 @@
+{
+    "date and hour": {
+        "hours": "Maria Que horas são"
+    },
+    "weather": {
+        "temperature": "Maria qual é a temperatura em"
+    },
+    "search": {
+        "google": "Maria busque por",
+        "youtube": "Maria Pesquise por ",
+        "wikipedia": "Maria procure por"
+    },
+    "music": {
+        "music2": "Maria toque música dois",
+        "music1": "Maria toque música 1",
+        "music3": "Maria toque música 3",
+        "music4": "Maria toque música 4",
+        "lofi": "Maria toque estudar"
+    },
+    "others": {
+        "joke": "Maria Me conte uma piada"
+    }
+}
