@@ -12,13 +12,20 @@ try:
 
         # musics commands
         elif main.spc == main.data_music1:
+            print('playing "De Kenner" - LEOD')
             main.playsound.playsound(r'./sounds/music/de_kenner.mp3')
         elif main.spc == main.data_music2:
+            print('playing "Poze indie" - LEOD')
             main.playsound.playsound(r'./sounds/music/poze_indie.mp3')
         elif main.spc == main.data_music3:
+            print('playing "Hotline chique" - LEOD')
             main.playsound.playsound(r'./sounds/music/HOTLINE_MUSIC.mp3')
         elif main.spc == main.data_music4:
+            print('playing "Se ta solteira" - LEOD')
             main.playsound.playsound(r'./sounds/music/SE_TA_SOLTEIRA.mp3')
+        elif main.spc == main.data_lofi:
+            print('Playing LOFI compilation')
+            main.playsound.playsound(r'./sounds/music/lofi.mp3')
 
         # temperature command
         elif main.data_temperature in main.spc:
