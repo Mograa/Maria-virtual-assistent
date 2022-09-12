@@ -2,7 +2,7 @@ import json
 import pyttsx3
 import speech_recognition as sr
 import datetime
-import playsound
+
 
 r = sr.Recognizer()
 machine = pyttsx3.init()
@@ -11,10 +11,11 @@ commands = json.load(json_open)
 time = datetime.datetime.now()
 time_t = time.strftime("%H:%M")
 
+data_space = commands['nasa']['space image']
 data_hours = commands['date and hour']['hours']
 data_temperature = commands['weather']['temperature']
-data_joke = commands['others']['joke']
 
+data_lofi = commands['music']['lofi']
 data_music1 = commands['music']['music1']
 data_music2 = commands['music']['music2']
 data_music3 = commands['music']['music3']
@@ -30,4 +31,4 @@ try:
         spc = str(r.recognize_google(audio, language='pt-BR'))
         print(spc)
 except:
-    print("Error of main archive")
+    pass
