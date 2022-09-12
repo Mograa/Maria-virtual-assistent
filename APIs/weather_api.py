@@ -1,7 +1,7 @@
 import main
 from requests import get   
 
-API_KEY = 'cb3d4b7abf1326d2ba1520686ee7c8c8'
+API_KEY = 'cb3d4b7abf1326d2ba1520686ee7c8c1'
 
 def temperature():
     search_temp = main.spc.replace('Maria qual é a temperatura em', '')
