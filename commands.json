@@ -1,21 +1,15 @@
 {
     "date and hour": {
-        "hours": "Maria Que horas são"
+        "day": "Maria Que dia é hoje",
+        "hours": "Maria que horas são"
     },
     "weather": {
         "temperature": "Maria qual é a temperatura em"
     },
     "search": {
         "google": "Maria busque por",
-        "youtube": "Maria Pesquise por ",
+        "youtube": "Maria Pesquise por",
         "wikipedia": "Maria procure por"
-    },
-    "music": {
-        "music2": "Maria toque música dois",
-        "music1": "Maria toque música 1",
-        "music3": "Maria toque música 3",
-        "music4": "Maria toque música 4",
-        "lofi": "Maria toque estudar"
     },
     "nasa": {
         "space image": "Maria imagem do dia"
